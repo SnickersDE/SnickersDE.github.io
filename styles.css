@@ -16,3 +16,22 @@ img {
     height: 100vh; 
     object-fit: cover; 
 }
+button {
+    position: absolute;
+    bottom: 5%;
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
