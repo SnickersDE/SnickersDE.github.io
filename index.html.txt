@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerze & Mikrofon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sprich ins Mikrofon, um die Kerze auszublasen</h1>
+        <img id="kerze" src="kerze_an.png" alt="Brennende Kerze">
+        <button id="start">Mikrofon aktivieren</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
